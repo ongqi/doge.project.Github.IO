@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form method="POST" action="https://example.com/register">
+        <em><h2>Driver Registration</h2></em> 
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBCYegkIc93LcJs6d4MX9CqqDrVcilXQb7g&s"
+        alt="Driver Image" 
+        width="250" height="150"> 
+        <br>
+        <!-- USE GET, NOT POST -->
+       First Name: <input type="text" name="firstName" required>
+         <br>
+       Last Name: <input type="text" name="lastName" required>
+         <br>
+       Email:  <input type="email" name="email" required>
+       <br>
+        Password: <input type="password" name="password" minlength="10" required>
+         <br>
+         Phone Number: <input type="tel" name="phoneNumber" required>
+         <br>
+         Birth Date: <input type="date" name="birthDate" required>
+         <br>
+         Gender: <br>
+          <input type="radio" name="gender" value="male">Male<br>
+          <input type="radio" name="gender" value="female">Female<br>
+          <input type="radio" name="gender" value="Croissant">Croissant<br>
+          Pets: <br>
+            <input type="checkbox" name="dogs" value="dog">Dog<br>
+            <input type="checkbox" name="cats" value="cat">Cat<br>
+            <input type="checkbox" name="fish" value="fish">Fish<br>
+            <input type="checkbox" name="birds" value="bird">Bird<br>
+            <input type="checkbox" name="hamsters" value="hamster">Hamster<br>
+            <input type="checkbox" name="otherPets" value="other">Other<br>
+            Cars: <br>
+            <select name="cars" required>
+                <option value="Ford Mustang" name="Ford Mustang">Ford Mustang</option>
+                <option value="Chevrolet Camaro" name="Chevrolet Camaro">Chevrolet Camaro</option>
+                <option value="Dodge Charger" name="Dodge Charger">Dodge Charger</option>
+                <option value="Tesla Model S" name="Tesla Model S">Tesla Model S</option>
+                <option value="Volvo" name="Volvo">Volvo</option>
+                <option value="Audi" name="Audi">Audi</option>
+                <option value="BMW" name="BMW">BMW</option>
+                <option value="Mercedes-Benz" name="Mercedes-Benz">Mercedes-Benz</option>
+                <option value="Toyota" name="Toyota">Toyota</option>
+                <option value="Honda" name="Honda">Honda</option>
+                <option value="Nissan" name="Nissan">Nissan</option>
+                <option value="Volkswagen" name="Volkswagen">Volkswagen</option>
+                <option value="Hyundai" name="Hyundai">Hyundai</option>
+                <option value="Kia" name="Kia">Kia</option>
+                <option value="Subaru" name="Subaru">Subaru</option>
+                <option value="Mazda" name="Mazda">Mazda</option>
+                <option value="Porsche" name="Porsche">Porsche</option>
+                <option value="Lamborghini" name="Lamborghini">Lamborghini</option>
+                <option value="Ferrari" name="Ferrari">Ferrari</option>
+                <option value="McLaren" name="McLaren">McLaren</option>
+                <option value="Bugatti" name="Bugatti">Bugatti</option>
+                <option value="Rolls-Royce" name="Rolls-Royce">Rolls-Royce</option>
+                <option value="Bentley" name="Bentley">Bentley</option>
+                <option value="Aston Martin" name="Aston Martin">Aston Martin</option>
+                <option value="Jaguar" name="Jaguar">Jaguar</option>
+                <option value="Land Rover" name="Land Rover">Land Rover</option>
+                <option value="Fiat" name="Fiat">Fiat</option>
+                <option value="Peugeot" name="Peugeot">Peugeot</option>
+                <option value="Citroën" name="Citroën">Citroën</option>
+                <option value="Renault" name="Renault">Renault</option>                
+            </select>
+
+         <br>
+       
+       <input type="submit" value="Register">
+       <input type="reset">
+    </form>
+</body>
+</html>
